@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SmoothScroll</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+
+    <!-- Scroll -->
+    <script src="/js/bootstrap.js"></script>
+    <script>
+      smoothScroll.init({
+      selector: '[data-scroll]', 
+      selectorHeader: null, 
+      speed: 2000, 
+      easing: 'easeInOutCubic', 
+      offset: 0,
+      callback: function ( anchor, toggle ) {} 
+      });
+    </script>
+    
+  </head>
+  <body>
+
+    <!-- MENÚ -->
+    <div class="container-fluid navbar-fixed-top">
+      <div class="row flex-items-xs-between menu-1 flex-items-xs-middle">
+        <div class="col-xs-2">
+          <a data-scroll href="#sec-1" class="btn btn-danger" role="button" aria-pressed="true">INICIO</a>
+        </div>
+        <div class="col-xs-2">
+          <a data-scroll href="#sec-2" class="btn btn-danger" role="button" aria-pressed="true">Historia</a>
+        </div>
+        <div class="col-xs-2">
+          <a data-scroll href="#sec-3" class="btn btn-danger" role="button" aria-pressed="true">Armas</a>
+        </div>
+        <div class="col-xs-2">
+          <a data-scroll href="#sec-4" class="btn btn-danger" role="button" aria-pressed="true">Video Juegos</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- SECCIÓN 1 -->
+    <div class="container-fluid">
+      <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Bienvenidos a mi sitio web de Mortal Kombat</h1>
+            <img class="medio" src="/img/Scorpion.jpg" alt="cargar">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- SECCIÓN 2 -->
+    <div class="container-fluid">
+      <div class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-2" >
+        <div class="row">
+          <h1 class="historia">HISTORIA DE MORTAL COMBAT</h1>
+    
+    <p>Mortal Kombat  es una franquicia de videojuegos de peleas creada por Ed Boon y John Tobias en 1992. Las cuatro primeras entregas fueron distribuidas por Midway Games y lanzadas principalmente en máquinas arcade; posteriormente estuvieron disponibles en consolas domésticas. Como resultado de su éxito, Mortal Kombat ha dado lugar a varias secuelas y se ha escindido en varios juegos de acción y aventura, ha tenido películas (de animación y de acción en vivo con su propia secuela), series de televisión e historietas. La serie es conocida por su gran cantidad de sangre y violencia, incluyendo particularmente los fatalities, un movimiento especial que para ser realizado se requiere hacer una combinación específica de botones, que posteriormente llevó a las empresas de videojuegos a crear la ESRB.</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- SECCIÓN 3 -->
+    <div class="container-fluid">
+      <div class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-3" >
+        <div class="row">
+          <h1>Armas e items</h1>
+    
+    <table>
+        <tr>
+            <th><img src="/img/espada.png" alt="cargar"> <br> Espadas</th>
+            <th><img src="/img/gema1.png" alt="cargar"> <br> Kamidogu</th>
+            <th><img src="/img/gema2.png" alt="cargar"> <br> Macuahuitl</th>
+            <th><img src="/img/gema3.png" alt="cargar"> <br> Datusha</th>
+        </tr>
+        <tr>
+            <th><img src="/img/gema4.png" alt="cargar"> <br> Amuleto de Shinook</th>
+            <th><img src="/img/gema5.gif" alt="cargar"> <br> Scythe</th>
+            <th><img src="/img/gema6.jpg" alt="cargar"> <br> Kori  Blade</th>
+        </tr>
+    </table>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- SECCIÓN 4 -->
+    <div class="container-fluid">
+      <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
+        <div class="row">
+          <h5 class="vid">VIDEO JUEGOS</h5>
+          <table class="orde">
+        
+            <tr>
+                <th ><img class="blanco" src="/img/Icono.jfif" alt="cargar"></th>
+                <th>Mortal Kombat 11</th>
+                <th>2019</th>
+            </tr>
+            <tr>
+                <th ><img  src="/img/JUEGO21.png" alt="cargar"></th>
+                <th class="dios">Mortal Kombat 11 (MK11) es la siguiente entrega de la saga de Mortal Kombat, el cual <br> será lanzado el próximo 23 de abril de 2019.</th>
+                
+            </tr>
+        </table> <br> <br>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- FOOTER -->
+    <div class="container-fluid footer">
+      <div><h6>Desarrollado por: Josue Fuentes Mancilla</a></h6></div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+  </body>
+</html>
